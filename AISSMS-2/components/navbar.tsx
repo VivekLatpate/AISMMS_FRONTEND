@@ -31,7 +31,7 @@ export default function Navbar() {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            {["About Us", "Projects", "USP", "Analyze"].map((item) => (
+            {["About Us", "Projects", "USP", "Analyze", "Data", "Output"].map((item) => (
               <motion.div
                 key={item}
                 whileHover={{ y: -2 }}
